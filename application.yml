@@ -1,0 +1,14 @@
+spring:
+  profiles:
+    active:
+    - dev
+---
+spring:
+  profiles: dev
+  application:
+    name: micro-service-config-cy-dev
+---
+spring:
+  profiles: test
+  application:
+    name: micro-service-config-cy-test
